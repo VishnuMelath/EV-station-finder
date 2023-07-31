@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "531174746375",
+    "project_id": "ev-app-e85fe",
+    "storage_bucket": "ev-app-e85fe.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:531174746375:android:e1b8c7771ebbd31caefda2",
+        "android_client_info": {
+          "package_name": "com.example.ev"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "531174746375-sta59ks4racj4pl74aao49pop8lkc09f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB2S3TtAAED7qpn1kbk1uTFztER07M1tBA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "531174746375-sta59ks4racj4pl74aao49pop8lkc09f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

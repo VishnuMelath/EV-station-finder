@@ -1,0 +1,391 @@
+{
+  "Example Results": [
+    {
+      "DataProvider": {
+        "WebsiteURL": "http://openchargemap.org",
+        "Comments": null,
+        "DataProviderStatusType": {
+          "IsProviderEnabled": true,
+          "ID": 1,
+          "description": "Manual Data Entry"
+        },
+        "IsRestrictedEdit": false,
+        "IsOpenDataLicensed": true,
+        "IsApprovedImport": true,
+        "License": "Licensed under Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)",
+        "DateLastImported": null,
+        "ID": 1,
+        "description": "Open Charge Map Contributors"
+      },
+      "OperatorInfo": {
+        "WebsiteURL": "https://www.afconev.co.il/",
+        "Comments": null,
+        "PhonePrimaryContact": null,
+        "PhoneSecondaryContact": null,
+        "IsPrivateIndividual": false,
+        "AddressInfo": null,
+        "BookingURL": null,
+        "ContactEmail": null,
+        "FaultReportEmail": null,
+        "IsRestrictedEdit": false,
+        "ID": 3435,
+        "description": "Afcon (Israel)"
+      },
+      "UsageType": {
+        "IsPayAtLocation": false,
+        "IsMembershipRequired": true,
+        "IsAccessKeyRequired": true,
+        "ID": 4,
+        "description": "Public - Membership Required"
+      },
+      "StatusType": {
+        "IsOperational": true,
+        "IsUserSelectable": true,
+        "ID": 50,
+        "description": "Operational"
+      },
+      "SubmissionStatus": {
+        "IsLive": true,
+        "ID": 200,
+        "description": "Submission Published"
+      },
+      "UserComments": null,
+      "PercentageSimilarity": null,
+      "MediaItems": null,
+      "IsRecentlyVerified": true,
+      "DateLastVerified": "2021-11-07T16:36:00Z",
+      "ID": 189853,
+      "UUID": "1686CE5C-95E8-450B-93C3-95D1B1AF98D4",
+      "ParentChargePointID": null,
+      "DataProviderID": 1,
+      "DataProvidersReference": null,
+      "OperatorID": 3435,
+      "OperatorsReference": null,
+      "UsageTypeID": 4,
+      "UsageCost": null,
+      "AddressInfo": {
+        "ID": 190212,
+        "description": "בית משה",
+        "AddressLine1": "כצנלסון 10",
+        "AddressLine2": null,
+        "Town": "Ashkelon",
+        "StateOrProvince": "South District",
+        "Postcode": "78100",
+        "CountryID": 111,
+        "Country": {
+          "ISOCode": "IL",
+          "ContinentCode": "AS",
+          "ID": 111,
+          "description": "Israel"
+        },
+        "Latitude": 31.66148706692408,
+        "Longitude": 34.587748089749425,
+        "ContactTelephone1": null,
+        "ContactTelephone2": null,
+        "ContactEmail": null,
+        "AccessComments": null,
+        "RelatedURL": "https://account.afconev.co.il/findCharger?31.6615343,34.5873913,20z,%D7%9B%D7%A6%D7%A0%D7%9C%D7%A1%D7%95%D7%9F%2010%20%D7%90%D7%A9%D7%A7%D7%9C%D7%95%D7%9F,494si",
+        "Distance": null,
+        "DistanceUnit": 0
+      },
+      "Connections": [
+        {
+          "ID": 307235,
+          "ConnectionTypeID": 25,
+          "ConnectionType": {
+            "FormalName": "IEC 62196-2 Type 2",
+            "IsDiscontinued": false,
+            "IsObsolete": false,
+            "ID": 25,
+            "description": "Type 2 (Socket Only)"
+          },
+          "Reference": null,
+          "StatusTypeID": 50,
+          "StatusType": {
+            "IsOperational": true,
+            "IsUserSelectable": true,
+            "ID": 50,
+            "description": "Operational"
+          },
+          "LevelID": 2,
+          "Level": {
+            "Comments": "Over 2 kW, usually non-domestic socket type",
+            "IsFastChargeCapable": false,
+            "ID": 2,
+            "description": "Level 2 : Medium (Over 2kW)"
+          },
+          "Amps": null,
+          "Voltage": null,
+          "PowerKW": 22,
+          "CurrentTypeID": 20,
+          "CurrentType": {
+            "Description": "Alternating Current - Three Phase",
+            "ID": 20,
+            "description": "AC (Three-Phase)"
+          },
+          "Quantity": 3,
+          "Comments": null
+        },
+        {
+          "ID": 307236,
+          "ConnectionTypeID": 33,
+          "ConnectionType": {
+            "FormalName": "IEC 62196-3 Configuration FF",
+            "IsDiscontinued": false,
+            "IsObsolete": false,
+            "ID": 33,
+            "description": "CCS (Type 2)"
+          },
+          "Reference": null,
+          "StatusTypeID": 50,
+          "StatusType": {
+            "IsOperational": true,
+            "IsUserSelectable": true,
+            "ID": 50,
+            "description": "Operational"
+          },
+          "LevelID": 3,
+          "Level": {
+            "Comments": "40KW and Higher",
+            "IsFastChargeCapable": true,
+            "ID": 3,
+            "description": "Level 3:  High (Over 40kW)"
+          },
+          "Amps": null,
+          "Voltage": null,
+          "PowerKW": 50,
+          "CurrentTypeID": 30,
+          "CurrentType": {
+            "Description": "Direct Current",
+            "ID": 30,
+            "description": "DC"
+          },
+          "Quantity": 1,
+          "Comments": null
+        }
+      ],
+      "NumberOfPoints": 4,
+      "GeneralComments": null,
+      "DatePlanned": null,
+      "DateLastConfirmed": null,
+      "StatusTypeID": 50,
+      "DateLastStatusUpdate": "2021-11-07T16:36:00Z",
+      "MetadataValues": null,
+      "DataQualityLevel": 1,
+      "DateCreated": "2021-11-07T16:36:00Z",
+      "SubmissionStatusTypeID": 200
+    },
+    {
+      "ID": 148527,
+      "UUID": "4C524AA1-3413-4D56-804C-480304FEB0FB",
+      "UserComments": [
+        {
+          "ID": "string",
+          "ChargePointID": 0,
+          "CommentTypeID": 0,
+          "CommentType": {
+            "ID": 0,
+            "Title": "string"
+          },
+          "UserName": "string",
+          "Comment": "string",
+          "RelatedURL": "string",
+          "DateCreated": "2019-08-24T14:15:22Z",
+          "User": {
+            "ID": 0,
+            "Username": "string",
+            "ReputationPoints": 0,
+            "ProfileImageURL": "string"
+          },
+          "CheckinStatusTypeID": 0,
+          "CheckinStatusType": {
+            "ID": 0,
+            "Title": "string",
+            "IsAutomatedCheckin": true,
+            "IsPositive": true
+          }
+        }
+      ],
+      "MediaItems": [
+        {
+          "ID": "string",
+          "ChargePointID": "string",
+          "ItemURL": "string",
+          "ItemThumbnailURL": "string",
+          "Comment": "string",
+          "IsEnabled": true,
+          "IsVideo": true,
+          "IsFeaturedItem": true,
+          "IsExternalResource": true,
+          "User": {
+            "ID": 0,
+            "Username": "string",
+            "ReputationPoints": 0,
+            "ProfileImageURL": "string"
+          },
+          "DateCreated": "string"
+        }
+      ],
+      "IsRecentlyVerified": true,
+      "DateLastVerified": "2020-02-04T06:33:00Z",
+      "ParentChargePointID": 0,
+      "DataProviderID": 1,
+      "DataProvidersReference": "string",
+      "OperatorID": 3,
+      "OperatorsReference": "PG-84306",
+      "UsageTypeID": 4,
+      "UsageCost": "See network operators app for current charges",
+      "AddressInfo": {
+        "ID": 148879,
+        "AddressLine1": "Buttsgrove Way",
+        "AddressLine2": null,
+        "Town": "Huntingdon",
+        "StateOrProvince": "string",
+        "Postcode": "PE29 1PE",
+        "CountryID": 1,
+        "Country": {
+          "ID": 1,
+          "ISOCode": "GB",
+          "ContinentCode": "EU",
+          "Title": "United Kingdom"
+        },
+        "Latitude": 52.343197,
+        "Longitude": -0.170632,
+        "ContactTelephone1": null,
+        "ContactTelephone2": null,
+        "ContactEmail": "string",
+        "AccessComments": "string",
+        "RelatedURL": null,
+        "Distance": null,
+        "DistanceUnit": 1,
+        "Title": "string"
+      },
+      "Connections": [
+        {
+          "ID": 206241,
+          "ConnectionTypeID": 25,
+          "ConnectionType": {
+            "FormalName": "IEC 62196-2 Type 2",
+            "IsDiscontinued": false,
+            "IsObsolete": false,
+            "ID": 25,
+            "Title": "Type 2 (Socket Only)"
+          },
+          "Reference": null,
+          "StatusTypeID": 50,
+          "StatusType": {
+            "IsOperational": true,
+            "IsUserSelectable": true,
+            "ID": 50,
+            "Title": "Operational"
+          },
+          "LevelID": 2,
+          "Level": {
+            "ID": 2,
+            "Title": "Level 2 : Medium (Over 2kW)",
+            "Comments": "Over 2 kW, usually non-domestic socket type",
+            "IsFastChargeCapable": true
+          },
+          "Amps": 32,
+          "Voltage": 230,
+          "PowerKW": 7.4,
+          "CurrentTypeID": 10,
+          "CurrentType": {
+            "ID": 10,
+            "Title": "AC (Single-Phase)"
+          },
+          "Quantity": 2,
+          "Comments": "string"
+        }
+      ],
+      "NumberOfPoints": 2,
+      "GeneralComments": "This is an open charge unit installed at the Coneygear Centre at Buttsgrove Way, Huntingdon",
+      "DatePlanned": "2020-02-04T06:33:00Z",
+      "DateLastConfirmed": "2020-02-04T06:33:00Z",
+      "StatusTypeID": 50,
+      "DateLastStatusUpdate": "2020-02-04T06:33:00Z",
+      "MetadataValues": [
+        null
+      ],
+      "DataQualityLevel": 5,
+      "DateCreated": "2020-02-04T06:33:00Z",
+      "SubmissionStatusTypeID": 200,
+      "DataProvider": {
+        "WebsiteURL": "https://openchargemap.org",
+        "Comments": "string",
+        "DataProviderStatusType": {
+          "IsProviderEnabled": true,
+          "ID": [
+            1
+          ],
+          "description": [
+            "Manual Data Entry"
+          ]
+        },
+        "IsRestrictedEdit": false,
+        "IsOpenDataLicensed": "null - true",
+        "IsApprovedImport": "null - true",
+        "License": "Licensed under Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)",
+        "DateLastImported": "null - '2020-02-04T23:09:00Z'",
+        "ID": 1,
+        "Title": "Open Charge Map Contributors"
+      },
+      "OperatorInfo": {
+        "WebsiteURL": "http://www.pod-point.com/",
+        "Comments": null,
+        "PhonePrimaryContact": null,
+        "PhoneSecondaryContact": null,
+        "IsPrivateIndividual": false,
+        "AddressInfo": {
+          "ID": 148879,
+          "AddressLine1": "Buttsgrove Way",
+          "AddressLine2": null,
+          "Town": "Huntingdon",
+          "StateOrProvince": "string",
+          "Postcode": "PE29 1PE",
+          "CountryID": 1,
+          "Country": {
+            "ID": 1,
+            "ISOCode": "GB",
+            "ContinentCode": "EU",
+            "Title": "United Kingdom"
+          },
+          "Latitude": 52.343197,
+          "Longitude": -0.170632,
+          "ContactTelephone1": null,
+          "ContactTelephone2": null,
+          "ContactEmail": "string",
+          "AccessComments": "string",
+          "RelatedURL": null,
+          "Distance": null,
+          "DistanceUnit": 1,
+          "Title": "string"
+        },
+        "BookingURL": "string",
+        "ContactEmail": "enquiries@pod-point.com",
+        "FaultReportEmail": "enquiries@pod-point.com",
+        "IsRestrictedEdit": true,
+        "ID": 0,
+        "Title": "POD Point (UK)"
+      },
+      "UsageType": {
+        "IsPayAtLocation": true,
+        "IsMembershipRequired": true,
+        "IsAccessKeyRequired": true,
+        "ID": 0,
+        "Title": "Public - Membership Required"
+      },
+      "StatusType": {
+        "IsOperational": true,
+        "IsUserSelectable": true,
+        "ID": 50,
+        "Title": "Operational"
+      },
+      "SubmissionStatus": {
+        "ID": 200,
+        "Title": "string",
+        "IsLive": false
+      }
+    }
+  ]
+}
